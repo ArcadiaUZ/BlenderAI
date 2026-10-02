@@ -1,0 +1,49 @@
+# Forge natijalari (og'ir fayllar - git'ga tushmaydi)
+forge/projects/
+forge/.env
+
+# Model o'rinlari (setup\02_download_models.bat yuklaydi, ~26 GB)
+ComfyUI/
+Image-To-3D/
+cache/
+
+# ComfyUI / Image-To-3D ning o'z repo'laridagi qismlar
+ComfyUI/venv/
+ComfyUI/models/
+ComfyUI/output/
+ComfyUI/input/
+ComfyUI/custom_nodes/
+ComfyUI/*.log
+Image-To-3D/.venv/
+Image-To-3D/models/
+Image-To-3D/workspace/
+Image-To-3D/generations/
+Image-To-3D/out/
+Image-To-3D/*.dll
+Image-To-3D/*.log
+
+# Keshlar
+.cache/
+hf/
+torch/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Blender
+*.blend1
+*.blend
+
+# Umumiy
+*.log
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.tmp
+*.bak
